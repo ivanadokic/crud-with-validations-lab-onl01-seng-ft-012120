@@ -7,4 +7,7 @@ class SongsController < ApplicationController
         @song=Song.find_by(id: params[:id])
     end
 
+    def edit
+    end
+
 end
